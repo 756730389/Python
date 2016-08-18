@@ -1,0 +1,7 @@
+# -*- coding:utf-8 -*-
+# use Python 2.7
+import urllib2
+
+request = urllib2.Request("http://www.baidu.com")
+response = urllib2.response(request)
+print response.read()
